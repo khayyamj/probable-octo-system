@@ -1,0 +1,89 @@
+/* Ekkomedia main styling page */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  cursor: pointer;
+}
+
+/* Ekkomedia NavBar styling section */
+
+.navbar {
+  position: relative;
+  width: 100vw;
+  height: 50px;
+  box-shadow: 0 0 30px 5px #F2F2F2;
+
+  .ekkomedia-logo {
+    width: 154px;
+    height: 22px;
+    margin-top: 10px;
+
+    background: url("./images/ekkomedia-logo.png");
+    position: absolute;
+    left: 65px;
+  }
+}
+
+.navmenu {
+  display: flex;
+  position: relative;
+
+  .hamburgerMenu {
+    background-color: white;
+    height: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;;
+    position: absolute;
+    right: 65px;
+    margin-top: 10px;
+    .shortHam {
+      background-color: black;
+      border: .75px solid black;
+      height: .5px;
+      width: 15px;
+    }
+    .longHam {
+      background-color: black;
+      border: .75px solid black;
+      height: .5px;
+      width: 20px;
+      margin: 6px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .navbar {
+    .ekkomedia-logo {
+      width: 105px;
+      height: 15px;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+  .navmenu {
+
+    .siteLinks {
+      display: none;
+    }
+    .socialMediaLinks {
+      display: none;
+    }
+    .subscribeLink {
+      display: none;
+    }
+    .hamburgerMenu {
+      align-items: flex-end;
+    }
+    .close-bluefield {
+      display: none;
+    }
+  }
+}
+
+.Excellence, .FullService, .ekkomedia-footer, .Individuals, .Ekkomedia-PhotoCarosel, .Ekkomedia-socialLens {
+  display: none;
+}
