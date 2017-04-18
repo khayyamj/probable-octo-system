@@ -3,8 +3,10 @@ const css = require('./app.scss');
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Page from './page';
+import Ekkomedia from './ekkomedia/ekkomedia';
+
 
 ReactDOM.render(
-  <Page />,
+  <Ekkomedia />,
   document.getElementById('root')
 );
