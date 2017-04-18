@@ -9,7 +9,7 @@
 # production
 /build
 /dist
-/src/museosans_500_macroman
+/museosans_500_macroman
 
 # misc
 .DS_Store
