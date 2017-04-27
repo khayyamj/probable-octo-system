@@ -84,6 +84,30 @@ a {
   }
 }
 
-.Excellence, .FullService, .ekkomedia-footer, .Individuals, .Ekkomedia-PhotoCarosel, .Ekkomedia-socialLens {
+.Excellence, .ekkomedia-footer, .Individuals, .Ekkomedia-PhotoCarosel, .Ekkomedia-socialLens {
   display: none;
 }
+
+/* FullService.js styling */
+.FullService {
+  text-align: center;
+  .full-service-words {
+    font-size: 78px;
+    font-weight: bold;
+  }
+  .hrBlueLine {
+    width: 40px;
+    border-color: blue;
+  }
+  .full-service-number {
+    font-size: 96px;
+    font-weight: bold;
+  }
+  .full-service-years {
+
+  }
+  .full-service-game {
+
+  }
+}
+/* end FullService.js styling */
